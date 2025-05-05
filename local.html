@@ -19,31 +19,38 @@ function goBack() {
     <div bgcolor="#111111" >
     <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><center><font color="#111111">Links - Local</center></font><br>
     <button style="width:165;height:79;color:white;background-color:#0066ff;font-size:16px" onClick="goBack()">Go Back</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://cam.localdomain:5001/cam', '_blank')">Surveillance</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://nas.localdomain:5001', '_blank')">NAS</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://calendar.localdomain:5001', '_blank')">Calendar</button>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://printer.localdomain', '_blank')">Printer</button>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://localhost:631/printers/', '_blank')">Printer CUPS</button>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://denon-avr1912.localdomain/NetAudio/index.html', '_blank')">Denon</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onclick="window.location.href='dvr.html';">DVR</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onclick="window.location.href='cams.html';">CAM</button>
+    <br><br>
+    <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">Surveillance</font><br>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://cam.localdomain:5001/cam', '_blank')">Monitor Center</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onclick="window.location.href='cams.html';">Camera List</button>
+    <br><br>
+    <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">NAS</font><br>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://nas.localdomain:5001', '_blank')">NAS</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://calendar.localdomain:5001', '_blank')">Calendar</button>
     <br><br>
     <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">Network</font><br>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://192.168.0.1', '_blank')">pfsense lan 0</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://192.168.3.1', '_blank')">pfsense lan 3</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://192.168.0.1', '_blank')">Router1 LAN1 </button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://192.168.3.1', '_blank')">Router1 LAN3</button>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://alpine.localdomain:8443/', '_blank')">Unifi Controller</button>
     <br><br>
     <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">DNS</font><br>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:5353/admin/', '_blank')">alpine PiHole</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:5353/admin/log/', '_blank')">alpine Report</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:5353/admin/', '_blank')">Pi-hole</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:5353/admin/log/', '_blank')">Report</button>
     <br><br>
-    <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">Management</font><br>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:5353/admin/', '_blank')">pihole</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://192.168.0.1:3000', '_blank')">ntopng</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:9000/', '_blank')">GrayLog</button>
-    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:8081/', '_blank')">SmokePing</button>
+    <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">Monitoring</font><br>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain/netmon/index.html', '_blank')">Network Monitor</button>
     <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain/netmon/index.html','','width=428,height=800,left=1,top=1,screenX=0,screenY=0,scrollbars=yes,resizable=no')">Network Popout</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:8081/', '_blank')">SmokePing</button>
+    <!--
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('http://alpine.localdomain:9000/', '_blank')">GrayLog</button>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://192.168.0.1:3000', '_blank')">ntopng</button>
+    -->
+    <br><br>
+    <font size="4" face="Verdana, Arial, Helvetica, sans-serif"><font color="#111111">Links</font><br>
+    <button style="width:165;height:79;color:white;background-color:#57A957;font-size:16px" onClick="window.open('https://www.ecobee.com', '_blank')">ecobee</button>
     <br><br>
   </tr>
 </table>
